@@ -7,16 +7,18 @@ Both widgets wrap a number of widgets that are commonly required for an applicat
 ### How do we declare theme of our app?
 Let's first take a look at `ThemeData` constructor.
 
-ThemeData({Brightness brightness, MaterialColor primarySwatch, Color primaryColor, Brightness primaryColorBrightness,<br/> 
-&ensp; &ensp; Color primaryColorLight, Color primaryColorDark, Color accentColor, Brightness accentColorBrightness, Color canvasColor,<br/>
-&ensp; &ensp; Color scaffoldBackgroundColor, Color bottomAppBarColor, Color cardColor, Color dividerColor, Color highlightColor,<br/>
-&ensp; &ensp; Color splashColor, InteractiveInkFeatureFactory splashFactory, Color selectedRowColor, Color unselectedWidgetColor,<br/>
-&ensp; &ensp; Color disabledColor, Color buttonColor, ButtonThemeData buttonTheme, Color secondaryHeaderColor,<br/>
-&ensp; &ensp; Color textSelectionColor, Color textSelectionHandleColor, Color backgroundColor, Color dialogBackgroundColor,<br/>
-&ensp; &ensp; Color indicatorColor, Color hintColor, Color errorColor, String fontFamily, TextTheme textTheme,<br/>
-&ensp; &ensp; TextTheme primaryTextTheme, TextTheme accentTextTheme, InputDecorationTheme inputDecorationTheme,<br/>
-&ensp; &ensp; IconThemeData iconTheme, IconThemeData primaryIconTheme, IconThemeData accentIconTheme,<br/>
-&ensp; &ensp; SliderThemeData sliderTheme, ChipThemeData chipTheme, TargetPlatform platform })
+```dart
+ThemeData({Brightness brightness, MaterialColor primarySwatch, Color primaryColor, Brightness primaryColorBrightness,
+  Color primaryColorLight, Color primaryColorDark, Color accentColor, Brightness accentColorBrightness, Color canvasColor,
+  Color scaffoldBackgroundColor, Color bottomAppBarColor, Color cardColor, Color dividerColor, Color highlightColor,
+  Color splashColor, InteractiveInkFeatureFactory splashFactory, Color selectedRowColor, Color unselectedWidgetColor,
+  Color disabledColor, Color buttonColor, ButtonThemeData buttonTheme, Color secondaryHeaderColor,
+  Color textSelectionColor, Color textSelectionHandleColor, Color backgroundColor, Color dialogBackgroundColor,
+  Color indicatorColor, Color hintColor, Color errorColor, String fontFamily, TextTheme textTheme,
+  TextTheme primaryTextTheme, TextTheme accentTextTheme, InputDecorationTheme inputDecorationTheme,
+  IconThemeData iconTheme, IconThemeData primaryIconTheme, IconThemeData accentIconTheme,
+  SliderThemeData sliderTheme, ChipThemeData chipTheme, TargetPlatform platform })
+```
 
 The most useful values to give are, in order of importance:
 - The desired theme `brightness`.
