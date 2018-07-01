@@ -19,11 +19,14 @@ BoxDecoration({Color color, DecorationImage image, BoxBorder border, BorderRadiu
 
 Let's see how to change the color, which fills the box.
 
-<img src="https://j.gifs.com/Q0l457.gif" alt="Draw a color in the box with a border.">
+<img src="https://j.gifs.com/Q0l457.gif" alt="Draw a color in the box.">
 
-The default value of `BoxShape` is `BoxShape.rectangle`. It can also be `BoxShape.circle`. 
+The default value of `shape` is `BoxShape.rectangle`. It can also be `BoxShape.circle`. 
 
-<img src="images/shape-rectangle.png" width="270" height="480" alt="Rectangle box shape" align="left">
-&nbsp;&nbsp;&nbsp;
-<img src="images/shape-circle.png" width="270" height="480" alt="Circle box shape">
+<img src="images/shape-rectangle.png" width="270" height="480" alt="Rectangle box shape" align="left"> <img src="images/shape-circle.png" width="270" height="480" alt="Circle box shape">
 
+A gradient sometimes helps you make a more stylish background-color. There is one question you have to think about. What happend to the `color` property? Where does my orangish color background go?
+
+**Things to remember**: `color` has **no effect** if the gradient is specified.
+
+<img src="https://j.gifs.com/4RjXnx.gif" alt="Draw a gradient in the box.">
